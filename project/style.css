@@ -1,0 +1,469 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+.land_container{
+    width: 100vw;
+    height: 100vh;
+    background-image:url("hero.jpg") ;
+    background-size:     cover;                      
+    background-repeat:   no-repeat; 
+}
+.navbar{
+    box-shadow: 0 0 8px 0 rgba(0,3,0,.5);
+    border-radius: 5px;
+  }
+.navbar-brand{
+    font-size: 1.4rem;
+    color: black;
+}
+.nav-link{
+    font-size: 1.1rem;
+    color: black;
+}
+.search-control{
+    background-color: transparent;
+    border-color: black;
+    border-width:0 0 0.5px 0 ;
+    border-radius: 0;
+    height: 90%;
+}
+.search-btn{
+    color: black;
+    border: none;
+    height: 90%;
+}
+.about_box{
+    background-color: #f3a815;
+    width: 70vw;
+    height: 80vh;
+    margin-top: 5%;
+    width: 80%;
+    padding-top: 5%;
+    border-radius: 5px;
+}
+.about_box h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.about_box p{
+    color: black;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    width: 100%;
+    margin-top: 5%;
+}
+.about_box h1 span{
+    color: red;
+}
+
+.contact_form_box{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    padding-top: 1rem;
+    
+}
+.contact_form{
+    width:auto ;
+    height: auto;
+    background-color: rgb(29, 28, 28);
+    margin: 0 auto;
+    position: relative; 
+    padding-top: 1rem; 
+    border-radius: 5px;
+}
+.contact_form h1{
+    color: #f3a815;
+    font-weight: 400;
+    font-size: 3rem;
+}
+.contact_form label{
+    color: #f3a815;
+    font-weight: 300;
+    font-size: 1rem;
+    left: 14%;
+    position: absolute;
+    margin-top: 1rem;
+    
+}
+.contact_form input ,.contact_form textarea{
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #f3a815;
+    color: #f3a815;
+    width: 70%;
+    margin-bottom:2rem;
+    margin-top: 1rem;
+}
+.contact_form textarea{
+   border: 1px solid #f3a815 ;
+   margin-top: 2rem;
+}
+#submit{
+    border: 1px solid #f3a815;
+    width: 40%;
+    text-transform:uppercase;
+}
+
+
+.quote_box{
+    width: 80vw;
+    height: auto;
+    margin-top: 20%;
+    text-align: right;
+}
+.highlight{
+    font-size: 2rem;
+    font-weight: 800;
+}
+.quote-1{
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.page_2{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(39, 39, 39);
+    padding-top: 2rem;
+   
+}
+.page_2 h1{
+    color: #f3a815;
+    font-weight: 300;
+}
+.card_container{
+    width: 100vw;
+    height: auto;
+}
+.card_box{
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+.section_image{
+    width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+
+                               /* men_cloth styling */
+
+.shop_head{
+    color: #f3a815;
+    font-size: 5rem;
+    font-weight: 600;
+    margin-left: 50%;
+    top: 1%;
+    font-style: italic;
+}
+
+#product_container , #women_product_container{
+    align-items: center;
+    background-color: #ffffff;
+}
+.card-title{
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.card-text{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.card_box button{
+    width: 60%;
+    height: auto;
+    background-color: transparent;
+    color: #f3a815;
+    border: #f3a815 1px solid;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.carousel{
+    background-color: #f3a815;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+.carousel-inner{
+   position: absolute;
+   width: 100vw;
+   height: 100vh;
+   top: 50%;
+   left: 50%;
+   transform:translate(-50%,-50%) ;
+   max-width: 100vw;
+   padding-top: 6%;
+}
+.carousel-item {
+    width: 95%;
+    height: 90%;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    margin-left: 3%;
+}
+#off_slide{
+display: grid;
+place-items: center;
+text-align: center;
+background-image:url("store.jpg");
+background-size:     cover;                                            
+background-repeat:   no-repeat;
+background-image: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 100%), url("store.jpg");
+}
+.offer_font{
+    font-size:  3rem;
+    color:#f3a815;
+    font-weight: 500;
+   
+}
+#off_slide span p{
+    font-size: 1.5rem;
+    color: #f3a815;
+    font-weight: 300;
+}
+.suit_section{
+    width: 100vw;
+    height:100vh ;
+    background-color: rgb(60, 60, 60);
+    position: relative;
+    display: grid;
+    place-items: center;
+}
+.suit{
+ width: 90%;
+ height: 90%;
+ background-image: url("women.jpg");
+ background-size:     cover;                                            
+ background-repeat:   no-repeat;
+ background-position: center;
+ background-image: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.5) 100%), url("suit.jpg");
+ display: grid;
+ place-items: center;
+ margin-top: 5%;
+ position: absolute;
+ border-radius: 10px;
+}
+
+.suit span p{
+    font-size: 1.5rem;
+    color: #f3a815;
+    font-weight: 300;
+    max-width: 80%;
+    height: auto;
+    font-style: italic;
+    margin-left: 3%;
+}
+.suit span{
+    display: grid;
+    place-items: center;
+}
+.shop_btn{
+    width: 50%;
+    height: auto;
+    background-color: transparent;
+    color: #f3a815;
+    border: #f3a815 1px solid;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+
+
+footer{
+    width: 100vw;
+    height: 40vh;
+    background-color: #f3a815;
+    position: relative;
+}
+footer div{
+    width: 100vw;
+    height: auto;
+  
+    
+}
+center div i {
+    font-size: 1.6rem;
+
+}
+
+center{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.icon_box span{
+  display:inline-flex;
+  gap: 1rem;
+}
+.follow_icons{
+    color: black;
+}
+.card_container{
+    background-color:transparent;
+}
+.card{
+    background-color: transparent;
+}
+.card-title{
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+.card-body{
+    background-color:transparent;
+}
+
+
+/* .page_sub_box{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    gap: 1rem;
+    vertical-align: middle;
+}
+.card_box{
+    width: 50%;
+    height:80%;
+    
+} */
+
+/* .page_sub_box{
+    height: 100vh;
+    width: 100vw;
+    display: block;
+}
+.card_box{
+    width: 80%;
+    height:60%;
+    
+}  */
+/* .page_2{
+    background-color: rgb(43, 43, 43);
+    width: 100vw;
+    height: auto;
+} */
+@media (500px < width < 1024px){
+    .quote_box{
+        width: 50vw;
+    }
+
+}
+@media (min-width:768px) {
+    .page_2{
+        width: auto;
+        height: auto;
+    }
+    .card_container{
+        display: flex;
+        width: 100%;
+        height: auto;
+
+    }
+    #men_box{
+        width: 46%;
+        height: auto;
+    }
+    #women_box{
+        width: 54%;
+        height: auto;
+    }
+    .section_image{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media (min-width:1024px) {
+
+.navbar-brand{
+  font-size: 2rem;
+  font-weight: 400;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.navbar-nav{
+    display: flex;
+    gap: 1.8rem;
+}
+.contact_form{
+    width: 60%;
+    height: auto;
+    margin-top: 1rem;
+}
+.highlight{
+    font-size: 3rem;
+    font-weight: 800;
+}
+.quote-1{
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+.quote_box{
+    width: 90vw;
+    
+}
+.page_2{
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+  
+}
+.page_2 h1{
+    font-size: 3rem;
+}
+.card_container{
+    width: 60%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+#men_box{
+    width: 46%;
+    height: auto;
+}
+#women_box{
+    width: 53.5%;
+    height: auto;
+    
+}
+.offer_font{
+    font-size:5rem;
+}
+
+#off_slide{
+    width: 80%;
+    margin-left: 10%;
+}
+#off_slide p i{
+    font-size: 2rem;
+}
+.suit span p{
+    max-width: 60%;
+}
+.shop_btn{
+ width: 30%;
+ height: 50%;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+}
+.fa-envelope ,.fa-instagram{
+    font-size: 2rem;
+}
+
+}
